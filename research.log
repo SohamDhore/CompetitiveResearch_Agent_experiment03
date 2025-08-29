@@ -1,0 +1,415 @@
+2025-08-29 20:27:55,381 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:27:55,396 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 20:27:55,411 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:27:55,425 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 20:27:55,425 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 20:27:55,425 - orchestrator - INFO - Validating system components...
+2025-08-29 20:27:55,425 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:28:02,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:28:02,518 - agents.planner_agent - INFO - Research plan created successfully in 7.09s
+2025-08-29 20:28:04,855 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:28:04,856 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:28:04,863 - orchestrator - INFO - Starting research workflow 105966b6-ace4-4053-9187-15e77fc437a7 for query: search ai employee companies...
+2025-08-29 20:28:04,864 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 20:28:04,864 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 20:28:10,856 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:28:10,877 - agents.planner_agent - INFO - Research plan created successfully in 6.01s
+2025-08-29 20:28:10,877 - orchestrator - INFO - Research plan created: To analyze and understand the competitive landscape of companies utilizing AI for employee management and productivity enhancement.
+2025-08-29 20:28:10,877 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 20:28:10,877 - agents.web_searcher_agent - INFO - Starting web research execution for: To analyze and understand the competitive landscap...
+2025-08-29 20:28:13,747 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:28:13,747 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 20:28:20,353 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 20:28:34,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:28:34,913 - agents.web_searcher_agent - INFO - Extracted information for 5 competitors
+2025-08-29 20:28:34,913 - agents.web_searcher_agent - INFO - Research execution completed in 24.04s with 5 competitors found
+2025-08-29 20:28:34,914 - orchestrator - INFO - Web search completed: 5 competitors found
+2025-08-29 20:28:34,914 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 20:28:34,915 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 5 competitors...
+2025-08-29 20:28:41,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:28:41,360 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 6.45s with quality score: 0.83
+2025-08-29 20:28:41,360 - orchestrator - INFO - Gap analysis completed: 83.0% data quality
+2025-08-29 20:28:41,360 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 20:28:41,361 - agents.response_curator_agent - INFO - Generating competitive insights for 5 competitors...
+2025-08-29 20:28:46,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:28:46,852 - agents.response_curator_agent - INFO - Competitive insights generated in 5.49s
+2025-08-29 20:28:46,852 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 20:28:52,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:28:52,690 - agents.response_curator_agent - INFO - Research report created in 5.84s
+2025-08-29 20:28:52,691 - orchestrator - INFO - Research workflow completed successfully in 41.99s
+2025-08-29 20:29:59,091 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:29:59,106 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 20:29:59,120 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:29:59,135 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 20:29:59,135 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 20:29:59,135 - orchestrator - INFO - Validating system components...
+2025-08-29 20:29:59,136 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:30:05,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:30:05,512 - agents.planner_agent - INFO - Research plan created successfully in 6.38s
+2025-08-29 20:30:08,154 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:30:08,155 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:30:08,163 - orchestrator - INFO - Starting research workflow be8e58eb-23b9-4bc9-a38b-b1c7d388dfa4 for query: search ai employee companies...
+2025-08-29 20:30:08,164 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 20:30:08,164 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 20:30:15,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:30:15,734 - agents.planner_agent - INFO - Research plan created successfully in 7.57s
+2025-08-29 20:30:15,735 - orchestrator - INFO - Research plan created: To analyze and understand the competitive landscape of companies utilizing AI for employee management and productivity enhancement.
+2025-08-29 20:30:15,735 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 20:30:15,735 - agents.web_searcher_agent - INFO - Starting web research execution for: To analyze and understand the competitive landscap...
+2025-08-29 20:30:18,499 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:30:18,500 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 20:30:20,873 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 20:30:40,610 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:30:40,695 - agents.web_searcher_agent - INFO - Extracted information for 5 competitors
+2025-08-29 20:30:40,695 - agents.web_searcher_agent - INFO - Research execution completed in 24.96s with 5 competitors found
+2025-08-29 20:30:40,696 - orchestrator - INFO - Web search completed: 5 competitors found
+2025-08-29 20:30:40,696 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 20:30:40,696 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 5 competitors...
+2025-08-29 20:30:46,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:30:46,354 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 5.66s with quality score: 0.83
+2025-08-29 20:30:46,354 - orchestrator - INFO - Gap analysis completed: 83.0% data quality
+2025-08-29 20:30:46,354 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 20:30:46,354 - agents.response_curator_agent - INFO - Generating competitive insights for 5 competitors...
+2025-08-29 20:30:53,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:30:53,481 - agents.response_curator_agent - INFO - Competitive insights generated in 7.13s
+2025-08-29 20:30:53,481 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 20:30:57,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:30:57,822 - agents.response_curator_agent - INFO - Research report created in 4.34s
+2025-08-29 20:30:57,823 - orchestrator - INFO - Research workflow completed successfully in 45.32s
+2025-08-29 20:36:06,993 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:36:07,009 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 20:36:07,023 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:36:07,037 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 20:36:07,037 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 20:36:07,037 - orchestrator - INFO - Validating system components...
+2025-08-29 20:36:07,037 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:36:12,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:36:12,635 - agents.planner_agent - INFO - Research plan created successfully in 5.60s
+2025-08-29 20:36:15,803 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:36:15,803 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:36:15,808 - orchestrator - INFO - Validating system components...
+2025-08-29 20:36:15,808 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:36:22,126 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:36:22,134 - agents.planner_agent - INFO - Research plan created successfully in 6.33s
+2025-08-29 20:36:24,310 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:36:24,313 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:36:36,360 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:36:36,375 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 20:36:36,389 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:36:36,403 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 20:36:36,403 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 20:36:36,403 - orchestrator - INFO - Validating system components...
+2025-08-29 20:36:36,403 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:36:42,363 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:36:42,415 - agents.planner_agent - INFO - Research plan created successfully in 6.01s
+2025-08-29 20:36:44,667 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:36:44,667 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:36:44,671 - orchestrator - INFO - Starting research workflow a5a8eded-d05f-4a51-9988-a0e1c7729627 for query: search ai employee companies...
+2025-08-29 20:36:44,672 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 20:36:44,672 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 20:36:50,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:36:50,029 - agents.planner_agent - INFO - Research plan created successfully in 5.36s
+2025-08-29 20:36:50,030 - orchestrator - INFO - Research plan created: Identify and analyze key competitors in the AI employee solutions market to understand their positioning, offerings, and market strategies.
+2025-08-29 20:36:50,030 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 20:36:50,030 - agents.web_searcher_agent - INFO - Starting web research execution for: Identify and analyze key competitors in the AI emp...
+2025-08-29 20:36:52,950 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:36:52,951 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 20:36:58,714 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 20:37:18,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:37:18,367 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - WARNING - Validation error for competitor data: 1 validation error for CompetitorInfo
+founded_year
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Not specified', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.9/v/int_parsing
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - INFO - Extracted information for 0 competitors
+2025-08-29 20:37:18,368 - agents.web_searcher_agent - INFO - Research execution completed in 28.34s with 0 competitors found
+2025-08-29 20:37:18,369 - orchestrator - INFO - Web search completed: 0 competitors found
+2025-08-29 20:37:18,369 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 20:37:18,369 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 0 competitors...
+2025-08-29 20:37:24,031 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:37:24,031 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 5.66s with quality score: 0.00
+2025-08-29 20:37:24,031 - orchestrator - INFO - Gap analysis completed
+2025-08-29 20:37:24,032 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 20:37:24,032 - agents.response_curator_agent - INFO - Generating competitive insights for 0 competitors...
+2025-08-29 20:37:30,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:37:30,634 - agents.response_curator_agent - INFO - Competitive insights generated in 6.60s
+2025-08-29 20:37:30,634 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 20:37:34,984 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:37:34,992 - agents.response_curator_agent - INFO - Research report created in 4.36s
+2025-08-29 20:37:34,993 - orchestrator - INFO - Research workflow completed successfully in 45.96s
+2025-08-29 20:39:25,042 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:39:25,056 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 20:39:25,071 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:39:25,086 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 20:39:25,086 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 20:39:25,086 - orchestrator - INFO - Validating system components...
+2025-08-29 20:39:25,086 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:39:31,562 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:39:31,639 - agents.planner_agent - INFO - Research plan created successfully in 6.55s
+2025-08-29 20:39:34,686 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:39:34,686 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:39:34,690 - orchestrator - INFO - Starting research workflow 59032c99-1e78-4f0d-b49a-3c5ce8274a19 for query: AI employee management companies...
+2025-08-29 20:39:34,691 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 20:39:34,691 - agents.planner_agent - INFO - Creating research plan for: AI employee management companies...
+2025-08-29 20:39:39,832 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:39:39,850 - agents.planner_agent - INFO - Research plan created successfully in 5.16s
+2025-08-29 20:39:39,851 - orchestrator - INFO - Research plan created: Identify and analyze key companies operating in the AI employee management market to understand their offerings and market positioning.
+2025-08-29 20:39:39,851 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 20:39:39,851 - agents.web_searcher_agent - INFO - Starting web research execution for: Identify and analyze key companies operating in th...
+2025-08-29 20:39:42,023 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:39:42,023 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 20:39:49,098 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 20:40:05,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:40:05,037 - agents.web_searcher_agent - INFO - Extracted information for 5 competitors
+2025-08-29 20:40:05,038 - agents.web_searcher_agent - INFO - Research execution completed in 25.19s with 5 competitors found
+2025-08-29 20:40:05,038 - orchestrator - INFO - Web search completed: 5 competitors found
+2025-08-29 20:40:05,038 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 20:40:05,038 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 5 competitors...
+2025-08-29 20:40:09,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:40:09,356 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 4.32s with quality score: 1.00
+2025-08-29 20:40:09,357 - orchestrator - INFO - Gap analysis completed: 100.0% data quality
+2025-08-29 20:40:09,357 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 20:40:09,357 - agents.response_curator_agent - INFO - Generating competitive insights for 5 competitors...
+2025-08-29 20:40:15,287 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:40:15,290 - agents.response_curator_agent - INFO - Competitive insights generated in 5.93s
+2025-08-29 20:40:15,290 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 20:40:19,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:40:19,804 - agents.response_curator_agent - INFO - Research report created in 4.51s
+2025-08-29 20:40:19,804 - orchestrator - INFO - Research workflow completed successfully in 40.60s
+2025-08-29 20:41:23,805 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:41:23,819 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 20:41:23,834 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 20:41:23,849 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 20:41:23,849 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 20:41:23,849 - orchestrator - INFO - Validating system components...
+2025-08-29 20:41:23,849 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 20:41:30,608 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:41:30,617 - agents.planner_agent - INFO - Research plan created successfully in 6.77s
+2025-08-29 20:41:33,473 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:41:33,474 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 20:41:33,484 - orchestrator - INFO - Starting research workflow 8cedf970-8df4-41d2-b59c-63c6c15ee0ad for query: search ai employee companies...
+2025-08-29 20:41:33,484 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 20:41:33,484 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 20:41:39,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:41:39,764 - agents.planner_agent - INFO - Research plan created successfully in 6.28s
+2025-08-29 20:41:39,766 - orchestrator - INFO - Research plan created: Identify and analyze companies that provide AI-driven employee search solutions to understand their market positioning, product offerings, and competitive advantages.
+2025-08-29 20:41:39,766 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 20:41:39,766 - agents.web_searcher_agent - INFO - Starting web research execution for: Identify and analyze companies that provide AI-dri...
+2025-08-29 20:41:41,945 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 20:41:41,946 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 20:41:47,067 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 20:41:58,007 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:41:58,010 - agents.web_searcher_agent - INFO - Extracted information for 5 competitors
+2025-08-29 20:41:58,011 - agents.web_searcher_agent - INFO - Research execution completed in 18.24s with 5 competitors found
+2025-08-29 20:41:58,012 - orchestrator - INFO - Web search completed: 5 competitors found
+2025-08-29 20:41:58,013 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 20:41:58,013 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 5 competitors...
+2025-08-29 20:42:03,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:42:03,744 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 5.73s with quality score: 0.77
+2025-08-29 20:42:03,744 - orchestrator - INFO - Gap analysis completed: 77.0% data quality
+2025-08-29 20:42:03,745 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 20:42:03,745 - agents.response_curator_agent - INFO - Generating competitive insights for 5 competitors...
+2025-08-29 20:42:10,295 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:42:10,360 - agents.response_curator_agent - INFO - Competitive insights generated in 6.62s
+2025-08-29 20:42:10,360 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 20:42:13,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 20:42:13,989 - agents.response_curator_agent - INFO - Research report created in 3.63s
+2025-08-29 20:42:13,990 - orchestrator - INFO - Research workflow completed successfully in 36.88s
+2025-08-29 22:34:38,607 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-5-mini
+2025-08-29 22:34:38,622 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-5-mini
+2025-08-29 22:34:38,636 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-5-mini
+2025-08-29 22:34:38,651 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-5-mini
+2025-08-29 22:34:38,651 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 22:34:38,651 - orchestrator - INFO - Validating system components...
+2025-08-29 22:34:38,651 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 22:34:41,296 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-29 22:34:41,299 - agents.planner_agent - ERROR - Unexpected error in create_research_plan: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:34:41,299 - agents.planner_agent - WARNING - Creating fallback plan due to: Unexpected error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:34:44,139 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:34:44,140 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 22:34:44,150 - orchestrator - INFO - Starting research workflow 36b64544-e1b9-4fb1-8984-776eacede64c for query: search ai employee companies...
+2025-08-29 22:34:44,151 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 22:34:44,151 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 22:34:45,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-29 22:34:45,428 - agents.planner_agent - ERROR - Unexpected error in create_research_plan: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:34:45,428 - agents.planner_agent - WARNING - Creating fallback plan due to: Unexpected error: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:34:45,428 - orchestrator - INFO - Research plan created: Competitive analysis for: search ai employee companies
+2025-08-29 22:34:45,428 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 22:34:45,429 - agents.web_searcher_agent - INFO - Starting web research execution for: Competitive analysis for: search ai employee compa...
+2025-08-29 22:34:47,723 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:34:47,725 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 22:34:54,070 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 22:34:54,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-29 22:34:54,427 - agents.web_searcher_agent - ERROR - Error extracting competitor info: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:34:54,427 - agents.web_searcher_agent - INFO - Research execution completed in 9.00s with 0 competitors found
+2025-08-29 22:34:54,427 - orchestrator - INFO - Web search completed: 0 competitors found
+2025-08-29 22:34:54,427 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 22:34:54,427 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 0 competitors...
+2025-08-29 22:34:56,307 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-29 22:34:56,308 - agents.gap_analyzer_agent - ERROR - Error in GPT gap analysis: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:34:56,308 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 1.88s with quality score: 0.00
+2025-08-29 22:34:56,309 - orchestrator - INFO - Gap analysis completed
+2025-08-29 22:34:56,309 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 22:34:56,309 - agents.response_curator_agent - INFO - Generating competitive insights for 0 competitors...
+2025-08-29 22:35:01,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-29 22:35:01,142 - agents.response_curator_agent - ERROR - Error generating insights: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:35:01,142 - agents.response_curator_agent - INFO - Competitive insights generated in 4.83s
+2025-08-29 22:35:01,142 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 22:35:01,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-29 22:35:01,550 - agents.response_curator_agent - ERROR - Error generating executive summary: Error code: 400 - {'error': {'message': "Unsupported value: 'temperature' does not support 0.1 with this model. Only the default (1) value is supported.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': 'unsupported_value'}}
+2025-08-29 22:35:01,552 - agents.response_curator_agent - INFO - Research report created in 0.41s
+2025-08-29 22:35:01,552 - orchestrator - INFO - Research workflow completed successfully in 16.99s
+2025-08-29 22:38:01,789 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 22:38:01,804 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 22:38:01,819 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 22:38:01,833 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 22:38:01,833 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 22:38:01,833 - orchestrator - INFO - Validating system components...
+2025-08-29 22:38:01,834 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 22:38:08,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:38:08,067 - agents.planner_agent - INFO - Research plan created successfully in 6.23s
+2025-08-29 22:38:10,615 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:38:10,616 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 22:38:10,622 - orchestrator - INFO - Starting research workflow 0ecf87e0-0c6e-49e0-acdd-4e9bfcbe27fb for query: AI employee management companies...
+2025-08-29 22:38:10,622 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 22:38:10,622 - agents.planner_agent - INFO - Creating research plan for: AI employee management companies...
+2025-08-29 22:38:16,206 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:38:16,215 - agents.planner_agent - INFO - Research plan created successfully in 5.59s
+2025-08-29 22:38:16,216 - orchestrator - INFO - Research plan created: Identify and analyze key players in the AI employee management market to understand their offerings, market position, and competitive advantages.
+2025-08-29 22:38:16,216 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 22:38:16,216 - agents.web_searcher_agent - INFO - Starting web research execution for: Identify and analyze key players in the AI employe...
+2025-08-29 22:38:18,735 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:38:18,735 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 22:38:24,169 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 22:38:44,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:38:44,534 - agents.web_searcher_agent - INFO - Extracted information for 5 competitors
+2025-08-29 22:38:44,534 - agents.web_searcher_agent - INFO - Research execution completed in 28.32s with 5 competitors found
+2025-08-29 22:38:44,535 - orchestrator - INFO - Web search completed: 5 competitors found
+2025-08-29 22:38:44,535 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 22:38:44,535 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 5 competitors...
+2025-08-29 22:38:51,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:38:51,024 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 6.49s with quality score: 0.94
+2025-08-29 22:38:51,024 - orchestrator - INFO - Gap analysis completed: 94.0% data quality
+2025-08-29 22:38:51,024 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 22:38:51,024 - agents.response_curator_agent - INFO - Generating competitive insights for 5 competitors...
+2025-08-29 22:38:58,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:38:58,653 - agents.response_curator_agent - INFO - Competitive insights generated in 7.63s
+2025-08-29 22:38:58,653 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 22:39:02,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:39:02,022 - agents.response_curator_agent - INFO - Research report created in 3.37s
+2025-08-29 22:39:02,022 - orchestrator - INFO - Research workflow completed successfully in 48.03s
+2025-08-29 22:39:56,282 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-4o-mini
+2025-08-29 22:39:56,297 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-4o-mini
+2025-08-29 22:39:56,311 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-4o-mini
+2025-08-29 22:39:56,326 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-4o-mini
+2025-08-29 22:39:56,326 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 22:39:56,326 - orchestrator - INFO - Validating system components...
+2025-08-29 22:39:56,327 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 22:40:02,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:40:02,454 - agents.planner_agent - INFO - Research plan created successfully in 6.13s
+2025-08-29 22:40:04,807 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:40:04,808 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 22:40:04,818 - orchestrator - INFO - Starting research workflow c649d89b-4eb7-41a5-b9aa-287daac9f996 for query: search ai employee companies...
+2025-08-29 22:40:04,819 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 22:40:04,819 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 22:44:26,423 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-5-mini
+2025-08-29 22:44:26,438 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-5-mini
+2025-08-29 22:44:26,452 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-5-mini
+2025-08-29 22:44:26,467 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-5-mini
+2025-08-29 22:44:26,467 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 22:44:26,467 - orchestrator - INFO - Validating system components...
+2025-08-29 22:44:26,467 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 22:45:14,831 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:45:14,844 - agents.planner_agent - INFO - Research plan created successfully in 48.38s
+2025-08-29 22:45:16,876 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:45:16,877 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 22:45:16,885 - orchestrator - INFO - Starting research workflow f9ef6219-ee39-4422-8e0a-58e9c17ef661 for query: search ai employee companies...
+2025-08-29 22:45:16,886 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 22:45:16,886 - agents.planner_agent - INFO - Creating research plan for: search ai employee companies...
+2025-08-29 22:45:47,482 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:45:47,490 - agents.planner_agent - INFO - Research plan created successfully in 30.60s
+2025-08-29 22:45:47,492 - orchestrator - INFO - Research plan created: Identify and profile 5–8 companies that provide AI-powered search and knowledge-discovery solutions for employees (internal/workplace search), and evaluate each on product capabilities, go-to-market, technology stack, pricing model, customers, integrations, and security/compliance to inform positioning and product strategy.
+2025-08-29 22:45:47,492 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 22:45:47,493 - agents.web_searcher_agent - INFO - Starting web research execution for: Identify and profile 5–8 companies that provide AI...
+2025-08-29 22:45:49,662 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 22:45:49,664 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 22:45:55,850 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 22:46:47,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:46:47,190 - agents.web_searcher_agent - INFO - Extracted information for 7 competitors
+2025-08-29 22:46:47,190 - agents.web_searcher_agent - INFO - Research execution completed in 59.70s with 7 competitors found
+2025-08-29 22:46:47,192 - orchestrator - INFO - Web search completed: 7 competitors found
+2025-08-29 22:46:47,193 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 22:46:47,194 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 7 competitors...
+2025-08-29 22:47:29,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:47:29,289 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 42.10s with quality score: 0.85
+2025-08-29 22:47:29,290 - orchestrator - INFO - Gap analysis completed: 85.0% data quality
+2025-08-29 22:47:29,290 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 22:47:29,290 - agents.response_curator_agent - INFO - Generating competitive insights for 7 competitors...
+2025-08-29 22:47:59,502 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:47:59,507 - agents.response_curator_agent - INFO - Competitive insights generated in 30.22s
+2025-08-29 22:47:59,507 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 22:48:18,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 22:48:18,393 - agents.response_curator_agent - INFO - Research report created in 18.89s
+2025-08-29 22:48:18,395 - orchestrator - INFO - Research workflow completed successfully in 162.62s
+2025-08-29 23:09:09,237 - agents.planner_agent - INFO - PlannerAgent initialized with model: gpt-5-mini
+2025-08-29 23:09:09,252 - agents.web_searcher_agent - INFO - WebSearcherAgent initialized with Tavily AI and model: gpt-5-mini
+2025-08-29 23:09:09,267 - agents.gap_analyzer_agent - INFO - GapAnalyzerAgent initialized with model: gpt-5-mini
+2025-08-29 23:09:09,281 - agents.response_curator_agent - INFO - ResponseCuratorAgent initialized with model: gpt-5-mini
+2025-08-29 23:09:09,281 - orchestrator - INFO - OrchestratorAgent initialized with all sub-agents
+2025-08-29 23:09:09,281 - orchestrator - INFO - Validating system components...
+2025-08-29 23:09:09,282 - agents.planner_agent - INFO - Creating research plan for: test market analysis...
+2025-08-29 23:09:50,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 23:09:50,956 - agents.planner_agent - INFO - Research plan created successfully in 41.67s
+2025-08-29 23:09:54,287 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 23:09:54,288 - orchestrator - INFO - System validation completed: ✅ All systems operational
+2025-08-29 23:09:54,296 - orchestrator - INFO - Starting research workflow 55368bcc-9f49-4ac7-8e03-1e02e7dd9bfe for query: ai agents for marketing...
+2025-08-29 23:09:54,296 - orchestrator - INFO - Step 1: Creating research plan...
+2025-08-29 23:09:54,296 - agents.planner_agent - INFO - Creating research plan for: ai agents for marketing...
+2025-08-29 23:10:19,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 23:10:19,053 - agents.planner_agent - INFO - Research plan created successfully in 24.76s
+2025-08-29 23:10:19,054 - orchestrator - INFO - Research plan created: Identify, profile, and compare 5-8 companies that provide AI-driven autonomous agents or virtual assistants specifically built to perform marketing tasks (content creation, lead engagement/qualification, conversational marketing, campaign automation, ad optimization), so we can evaluate product fit, technology, pricing, go-to-market, and differentiation for strategic positioning and partnership or product development decisions.
+2025-08-29 23:10:19,054 - orchestrator - INFO - Step 2: Executing web searches...
+2025-08-29 23:10:19,054 - agents.web_searcher_agent - INFO - Starting web research execution for: Identify, profile, and compare 5-8 companies that ...
+2025-08-29 23:10:21,112 - agents.web_searcher_agent - INFO - ✅ Tavily API key validated successfully
+2025-08-29 23:10:21,112 - agents.web_searcher_agent - INFO - Generated 5 search queries
+2025-08-29 23:10:30,472 - agents.web_searcher_agent - INFO - Completed 5 searches with 50 total results
+2025-08-29 23:11:21,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 23:11:21,931 - agents.web_searcher_agent - INFO - Extracted information for 7 competitors
+2025-08-29 23:11:21,931 - agents.web_searcher_agent - INFO - Research execution completed in 62.88s with 7 competitors found
+2025-08-29 23:11:21,932 - orchestrator - INFO - Web search completed: 7 competitors found
+2025-08-29 23:11:21,932 - orchestrator - INFO - Step 3: Analyzing research gaps...
+2025-08-29 23:11:21,932 - agents.gap_analyzer_agent - INFO - Analyzing research gaps for 7 competitors...
+2025-08-29 23:12:03,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 23:12:03,101 - agents.gap_analyzer_agent - INFO - Gap analysis completed in 41.17s with quality score: 0.85
+2025-08-29 23:12:03,101 - orchestrator - INFO - Gap analysis completed: 85.0% data quality
+2025-08-29 23:12:03,102 - orchestrator - INFO - Step 4: Generating insights and final report...
+2025-08-29 23:12:03,102 - agents.response_curator_agent - INFO - Generating competitive insights for 7 competitors...
+2025-08-29 23:12:28,064 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 23:12:28,068 - agents.response_curator_agent - INFO - Competitive insights generated in 24.97s
+2025-08-29 23:12:28,068 - agents.response_curator_agent - INFO - Creating comprehensive research report...
+2025-08-29 23:12:43,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-29 23:12:43,468 - agents.response_curator_agent - INFO - Research report created in 15.40s
+2025-08-29 23:12:43,469 - orchestrator - INFO - Research workflow completed successfully in 153.77s

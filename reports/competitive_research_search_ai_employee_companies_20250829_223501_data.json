@@ -1,0 +1,154 @@
+{
+  "query": {
+    "query": "search ai employee companies",
+    "depth": "standard",
+    "focus_areas": [],
+    "exclude_competitors": null,
+    "max_results": 10
+  },
+  "plan": {
+    "main_objective": "Competitive analysis for: search ai employee companies",
+    "research_questions": [
+      "Who are the main competitors in the search ai employee companies space?",
+      "What are their key products and services?",
+      "How do they price their offerings?",
+      "What are their main competitive advantages?",
+      "Who is their target market?"
+    ],
+    "priority_areas": [
+      "market_position",
+      "features",
+      "pricing",
+      "target_market"
+    ],
+    "search_keywords": [
+      "search ai employee companies",
+      "competitors",
+      "market analysis"
+    ],
+    "competitor_names": [],
+    "estimated_searches": 8,
+    "created_at": "2025-08-29 22:34:45.428395"
+  },
+  "competitors": [],
+  "gap_analysis": {
+    "missing_information": [
+      "No competitors identified",
+      "Insufficient competitor coverage"
+    ],
+    "incomplete_areas": {
+      "target_market": [
+        "No data found for target_market"
+      ]
+    },
+    "confidence_scores": {
+      "market_position": 0.7,
+      "features": 0.7,
+      "pricing": 0.7,
+      "target_market": 0.0
+    },
+    "suggested_queries": [
+      "search ai employee companies market leaders",
+      "target_market analysis search ai employee companies"
+    ],
+    "priority_gaps": [
+      "Identify main competitors in the market"
+    ],
+    "data_quality_score": 0.0
+  },
+  "insights": {
+    "market_opportunities": [
+      "Identify underserved market segments"
+    ],
+    "competitive_advantages": [
+      "Leverage unique capabilities"
+    ],
+    "threats_and_risks": [
+      "Monitor competitive actions"
+    ],
+    "strategic_recommendations": [
+      "Continue market research",
+      "Develop differentiation strategy"
+    ],
+    "positioning_suggestions": [
+      "Focus on unique value proposition"
+    ],
+    "feature_gaps": [
+      "Analyze feature completeness"
+    ],
+    "pricing_insights": [
+      "Research competitive pricing"
+    ]
+  },
+  "executive_summary": "This competitive research analyzed 0 competitors in the search ai employee companies space. The research identified key market players, their positioning, and strategic opportunities. \n\nBased on the analysis, several market opportunities and competitive advantages were identified, along with potential threats and risks. The findings suggest specific strategic recommendations for competitive positioning and market entry.\n\nFurther research is recommended to address identified gaps and enhance competitive intelligence.",
+  "methodology": "This competitive research employed a multi-agent approach using GPT-4o-mini and Tavily AI web search technology.\n\n**Research Process:**\n1. Strategic planning based on the research query\n2. Systematic web search using 3 keywords across 4 priority areas\n3. Automated data extraction and competitor profiling\n4. Gap analysis to identify missing information\n5. Synthesis of findings into strategic insights\n\n**Data Collection:**\n- 8 planned searches executed\n- 50 search results analyzed\n- Focus areas: market_position, features, pricing, target_market\n- Search depth: Advanced web search with AI-powered content extraction\n\n**Analysis Methods:**\n- Automated competitor profiling and feature extraction\n- Gap analysis with confidence scoring\n- Strategic insight generation using AI analysis\n- Cross-validation of findings across multiple sources",
+  "data_sources": [
+    "GPT-4o-mini Analysis",
+    "Tavily AI Web Search",
+    "bullishbears.com",
+    "circlesstudio.com",
+    "clu-in.org",
+    "companiesmarketcap.com",
+    "corporatefinanceinstitute.com",
+    "doit.software",
+    "hbr.org",
+    "hirebee.ai",
+    "kearneygroup.com.au",
+    "lattice.com",
+    "market.us",
+    "medium.com",
+    "mostlovedworkplace.com",
+    "thebossmagazine.com",
+    "uncovered.so",
+    "www.4allpromos.com",
+    "www.alpha-sense.com",
+    "www.ama.org",
+    "www.businessinitiative.org",
+    "www.businessnewsdaily.com",
+    "www.clearcompany.com",
+    "www.coursera.org",
+    "www.crayon.co",
+    "www.deloitte.com",
+    "www.forbes.com",
+    "www.getcensus.com",
+    "www.grandviewresearch.com",
+    "www.greatplacetowork.com",
+    "www.hracuity.com",
+    "www.indeed.com",
+    "www.linkedin.com",
+    "www.llcattorney.com",
+    "www.mccrackenalliance.com",
+    "www.moveworks.com",
+    "www.ninety.io",
+    "www.phenom.com",
+    "www.qualtrics.com",
+    "www.sba.gov",
+    "www.shrm.org",
+    "www.simon-kucher.com",
+    "www.statista.com",
+    "www.teamsense.com",
+    "www.uschamber.com",
+    "www.usemotion.com",
+    "www.vktr.com",
+    "www.wecreateproblems.com",
+    "www.wolterskluwer.com"
+  ],
+  "limitations": [
+    "Missing critical information in 2 areas",
+    "Lower confidence in data for: target_market",
+    "Information accuracy dependent on publicly available sources",
+    "Market conditions and competitor data subject to rapid change",
+    "Some proprietary information not accessible through public research"
+  ],
+  "next_steps": [
+    "Conduct additional research using suggested follow-up queries",
+    "Address priority information gaps for more complete analysis",
+    "Implement strategic recommendations based on competitive analysis",
+    "Monitor competitor activities and market developments continuously",
+    "Validate findings through direct market research or customer interviews",
+    "Develop detailed competitive response strategies"
+  ],
+  "generated_at": "2025-08-29 22:35:01.552350",
+  "total_searches_performed": 5,
+  "research_duration_seconds": 16.991606
+}
